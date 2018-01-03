@@ -7,8 +7,8 @@ body {
 }
 
 body.dark {
-  background: #000831;
-  color: #dddddd;
+  background: #C20434;
+  color: #FCFDFD;
 }
 
 body.white {
@@ -25,11 +25,11 @@ h1, h3 { font-weight: 300; }
 
 h1 { color: #636363; }
 
-body.dark h1 { color: #cecece; }
+body.dark h1 { color: #FCFDFD; }
 
 h3 { color: #4a89dc; }
 
-body.dark h3 { color: #fffac4; }
+body.dark h3 { color: #FCFDFD; }
 
 form {
 	width: 100%;
@@ -63,7 +63,7 @@ input {
 
 body.dark input {
 	background: transparent;
-	color: #fff;
+	color: #FCFDFD;
 	border-bottom: 1px solid #afafaf;
 }
 
@@ -90,7 +90,7 @@ label {
 }
 
 body.dark label{
-  color: #ffffba;
+  color: #FCFDFD;
 }
 
 
@@ -104,7 +104,7 @@ input:focus ~ label, input.used ~ label {
 }
 
 body.dark input:focus ~ label, body.dark input.used ~ label {
-	color: #ffffba;
+	color: #FCFDFD;
 }
 
 
@@ -127,7 +127,7 @@ body.dark input:focus ~ label, body.dark input.used ~ label {
 }
 
 body.dark .bar:before, body.dark .bar:after {
-	background: #dbd64a;
+	background: #FCFDFD;
 }
 
 .bar:before { left: 50%; }
@@ -191,8 +191,8 @@ input:focus ~ .highlight {
 }
 
 body.dark .button {
-  color:#fff;
-  border-bottom: 2px solid #fffdc9;
+  color:#C20434;
+  border-bottom: 2px solid #FCFDFD;
 }
 
 
@@ -212,9 +212,17 @@ body.dark .button {
 	font-weight: bold;
 }
 
+.buttonAYT {
+	background: #FCFDFD;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+}
+
 .buttonBlue:hover { background: #dda000; }
 
 .buttonLBE:hover { background: #dda000; }
+
+.buttonAYT:hover { background: #DADBDB; }
 
 
 /* Ripples container */
@@ -291,7 +299,7 @@ ul.options li:active {
 }
 
 ul.options li img {
-  background-color: #2eabd9;
+  background-color: #C20434;
   width: 55px;
   padding: 10px;
   display: inline;
